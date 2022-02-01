@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.List;
 
 @RestController
-@RequestMapping(path =  "v1/student")
+@RequestMapping(path = "v1/student")
 public class StudentController {
     private final StudentService studentService;
     @Autowired
